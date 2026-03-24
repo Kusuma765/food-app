@@ -1,0 +1,38 @@
+.home {
+  height: 100vh;
+  width: 100%;
+  background: url("https://images.unsplash.com/photo-1504674900247-0877df9cc836")
+    no-repeat center center/cover;
+  position: relative;
+}
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6);
+
+  display: flex;
+  justify-content: center;   /* Horizontal center */
+  align-items: center;       /* Vertical center */
+  text-align: center;
+}
+
+.home-content {
+  color: white;
+}
+
+.explore-btn {
+  margin-top: 20px;
+  padding: 12px 25px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  background-color: #c01010;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.explore-btn:hover {
+  background-color: #e64a19;
+}

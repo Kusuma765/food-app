@@ -1,0 +1,111 @@
+/* NonVeg Container */
+.nonveg-container {
+  margin-top: 100px;   /* ✅ FIX: space for fixed navbar */
+  padding: 30px 20px;
+  background: linear-gradient(to right, #fff5f5, #ffeaea);
+  text-align: center;
+}
+
+/* Title */
+.nonveg-title {
+  font-size: 36px;
+  margin-bottom: 30px;
+  color: #b71c1c;
+  font-weight: 700;
+}
+
+/* GRID */
+.nonveg-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* ✅ FIX */
+  gap: 25px;
+  max-width: 1100px;
+  margin: auto;
+  justify-items: center;  /* ✅ center cards */
+}
+
+/* Card */
+.nonveg-card {
+  background: #ffffff;
+  border-radius: 15px;
+  padding: 15px;
+  width: 100%;
+  max-width: 260px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+  transition: all 0.3s ease;
+}
+
+/* Hover */
+.nonveg-card:hover {
+  transform: translateY(-8px) scale(1.02);
+}
+
+/* Image */
+.nonveg-card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Content */
+.nonveg-content {
+  padding: 10px;
+}
+
+.nonveg-content h3 {
+  font-size: 18px;
+  margin: 10px 0;
+  color: #c62828;
+}
+
+.nonveg-content p {
+  font-size: 13px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.nonveg-content h4 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+/* Button */
+.nonveg-content button {
+  background: linear-gradient(135deg, #ff4d4d, #c62828);
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 13px;
+  transition: 0.3s;
+}
+
+/* Button Hover */
+.nonveg-content button:hover {
+  transform: scale(1.05);
+  background: #8e0000;
+}
+
+/* Pagination */
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 30px 0;
+}
+
+.pagination button {
+  padding: 8px 15px;
+  border: none;
+  background: #c62828;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.pagination button:hover {
+  background: #8e0000;
+}

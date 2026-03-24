@@ -1,0 +1,86 @@
+/* ===== CONTAINER ===== */
+.about-container {
+  margin-top: 80px;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* ===== HERO SECTION ===== */
+.about-hero {
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(to right, #1e3c72, #2a5298);
+  color: white;
+}
+
+.about-hero h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.about-hero p {
+  font-size: 18px;
+}
+
+/* ===== STORY SECTION ===== */
+.about-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 10%;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.about-text {
+  flex: 1;
+}
+
+.about-text h2 {
+  font-size: 30px;
+  margin-bottom: 15px;
+  color: #1e3c72;
+}
+
+.about-text p {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #555;
+}
+
+.about-image {
+  flex: 1;
+}
+
+.about-image img {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+/* ===== MISSION & VISION ===== */
+.mission-vision {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px 10%;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  transition: 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+}
+
+.card h3 {
+  color: #2a5298;
+  margin-bottom: 10px;
+}

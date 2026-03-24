@@ -1,0 +1,25 @@
+/* Reset only — no layout override */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  min-height: 100vh;
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+/* Remove default anchor underline */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Remove button default styles but don't force layout */
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
