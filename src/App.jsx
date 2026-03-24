@@ -81,7 +81,7 @@ function App() {
               </button>
             </>
           ) : (
-            <Link to="/Login">
+            <Link to="/login">
               <FontAwesomeIcon icon={faUser} /> Login
             </Link>
           )}
