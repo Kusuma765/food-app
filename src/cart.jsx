@@ -4,7 +4,7 @@ import { clearCart, decreaseQuantity, increaseQuantity, removeCart} from './cart
 import {ToastContainer , toast } from 'react-toastify';
 import { applyCoupon, resetCoupon } from './couponSlice';
 import {QRCode} from "react-qr-code";
-import { addOrder } from './OrderSlice';
+import { addOrder } from './orderSlice';
 import "./Cart.css";
 import emailjs from "@emailjs/browser";
 
