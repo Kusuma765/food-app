@@ -15,13 +15,13 @@
 
 import { configureStore } from "@reduxjs/toolkit";
 import cartReducers from "./cartSlice";
-import cuponReducers from "./couponSlice";
+import couponReducers from "./couponSlice";
 import orderReducers from "./orderSlice";
 
 const store = configureStore({
   reducer: {
     cart: cartReducers,
-    coupon: cuponReducers,
+    coupon: couponReducers,
     order: orderReducers
   }
 });
